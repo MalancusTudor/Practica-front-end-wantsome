@@ -1,0 +1,22 @@
+git checkout master
+git branch CS1_home-practice-1_PowerShell
+git checkout CS1_home-practice-1_PowerShell
+git add 1.txt 2.txt 3.txt 4.txt 5.txt
+git commit -m "Commit message"
+git push -u origin CS1_home-practice-1_PowerShell
+git rm 3.txt 5.txt
+git commit -m "Commit message"
+git push -u origin CS1_home-practice-1_PowerShell
+git checkout master
+git merge CS1_home-practice-1_PowerShell
+git push
+git checkout master
+git branch CS1_home-practice-2_PowerShell
+git checkout CS1_home-practice-2_PowerShell
+git add 1.txt 2.txt 4.txt
+git rm 1.txt 2.txt 4.txt
+git commit -m "Commit message"
+git push -u origin CS1_home-practice-2_PowerShell
+git checkout master
+git merge CS1_home-practice-2_PowerShell
+git push
