@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tema</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>Search for:</label>
+            </div>
+            <div>
+                <input type="search" name="search">
+                <button type="submit">Search</button>
+            </div>
+            <div>
+                <label>Match:</label>
+                <input type="radio" name="word" value="any" required> Any word
+                <input type="radio" name="word" value="all"> All words
+                <input type="radio" name="word" value="exact"> Exact phrase
+            </div>
+            
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="alike" value="Sound">
+                
+                <label for="alike"> Sound-alike matching</label><br>
+            </div>
+            <div>
+                <label>Dated:</label>
+                <input type="radio" name="date" value="lastYear" required>
+                    <select id="tour" required>
+                        <option value="">Within the last year</option>
+                        <option value="pk1">Package1</option>
+                        <option value="pk2">Package2</option>
+                        <option value="pk3">Package3</option>
+                        <option value="pk4">Package4</option>
+                    </select><br>
+                </input>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="date" value="custom"> 
+                    <label>From:</label>
+                    <select id="tour" required>
+                        <option value="">September</option>
+                        <option value="pk1">Package1</option>
+                        <option value="pk2">Package2</option>
+                        <option value="pk3">Package3</option>
+                        <option value="pk4">Package4</option>
+                    </select>
+                    <select id="tour" required>
+                        <option value="">8</option>
+                        <option value="pk1">Package1</option>
+                        <option value="pk2">Package2</option>
+                        <option value="pk3">Package3</option>
+                        <option value="pk4">Package4</option>
+                    </select>
+                    <select id="tour" required>
+                        <option value="">2009</option>
+                        <option value="pk1">Package1</option>
+                        <option value="pk2">Package2</option>
+                        <option value="pk3">Package3</option>
+                        <option value="pk4">Package4</option>
+                    </select>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>To:</label>
+                    <select id="tour" required>
+                        <option value="">October</option>
+                        <option value="pk1">Package1</option>
+                        <option value="pk2">Package2</option>
+                        <option value="pk3">Package3</option>
+                        <option value="pk4">Package4</option>
+                    </select>
+                    <select id="tour" required>
+                        <option value="">18</option>
+                        <option value="pk1">Package1</option>
+                        <option value="pk2">Package2</option>
+                        <option value="pk3">Package3</option>
+                        <option value="pk4">Package4</option>
+                    </select>
+                    <select id="tour" required>
+                        <option value="">2011</option>
+                        <option value="pk1">Package1</option>
+                        <option value="pk2">Package2</option>
+                        <option value="pk3">Package3</option>
+                        <option value="pk4">Package4</option>
+                    </select>
+                </input>
+            </div>
+            <div>
+                <label>Within:</label>
+                <select id="tour" required>
+                    <option value="">Description</option>
+                    <option value="pk1">Package1</option>
+                    <option value="pk2">Package2</option>
+                    <option value="pk3">Package3</option>
+                    <option value="pk4">Package4</option>
+                </select>
+            </div>
+            <div>
+                <label>Show:</label>
+                <select id="tour" required>
+                    <option value="">10</option>
+                    <option value="pk1">Package1</option>
+                    <option value="pk2">Package2</option>
+                    <option value="pk3">Package3</option>
+                    <option value="pk4">Package4</option>
+                </select>
+                <label> results </label>
+                <select id="with" required>
+                    <option value="">with</option>
+                    <option value="pk1">Package1</option>
+                    <option value="pk2">Package2</option>
+                    <option value="pk3">Package3</option>
+                    <option value="pk4">Package4</option>
+                </select>
+                <label> summaries </label>
+            </div>
+            <div>
+                <label>Sort by: </label>
+                <select id="with" required>
+                    <option value="">relevance</option>
+                    <option value="pk1">Package1</option>
+                    <option value="pk2">Package2</option>
+                    <option value="pk3">Package3</option>
+                    <option value="pk4">Package4</option>
+                </select>
+            </div>
+        </form>
+    </body>
+</html>

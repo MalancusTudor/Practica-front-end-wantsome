@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tema</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>Nume</label><br>
+            </div>
+            <div>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>Prenume</label><br>
+            </div>
+            <div>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>Sex</label><br>
+            </div>
+            <div>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <div>
+                <label>Varsta</label><br>
+            </div>
+            <div>
+                <input type="number" min="18" max="85">
+            </div>
+            <div>
+                <label>Tara</label><br>
+            </div>
+            <div>
+                <input type="text" value="Romania">
+            </div>
+            <div>
+                <label>City</label><br>
+            </div>
+            <div>
+                <input type="text" value="Iasi">
+            </div>
+            <div>
+                <label>Adresa</label><br>
+            </div>
+            <div>
+                <input type="text">
+            </div>
+            <div>
+                <label>Cod postal</label><br>
+            </div>
+            <div>
+                <input type="number" value="703546">
+            </div>
+            <div>
+                <label>Email</label><br>
+            </div>
+            <div>
+                <input type="email" required>
+            </div>
+            <div>
+                <label for="CV">Select pdf as CV:</label>
+                <input type="file" name="CV" accept=".pdf/*">
+                <input type="submit">
+            </div>
+            <div>
+                <input type="submit" value="Trimite">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </body>
+</html>

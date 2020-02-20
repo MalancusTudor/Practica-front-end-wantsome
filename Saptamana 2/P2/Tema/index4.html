@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tema</title>
+    </head>
+    <body>
+        <h1>My feedback form</h1>
+        <form>
+            <div>
+                <label>&#8226;Name:</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>&#8226;Email address:</label>
+                <input type="email" required>
+            </div>
+            <div>
+                <label>&#8226;Password:</label>
+                <input type="password" required>
+            </div>
+            <div>
+                <label>Select Tour Package:</label><br>
+            </div>
+            <div>
+                <select id="tour" required>
+                    <option value="">None</option>
+                    <option value="pk1">Package1</option>
+                    <option value="pk2">Package2</option>
+                    <option value="pk3">Package3</option>
+                    <option value="pk4">Package4</option>
+                </select>
+            </div>
+            <div>
+                <label>Arrival date</label><br>
+            </div>
+            <div>
+                <input type="text" required placeholder="m/d/y">
+            </div>
+            <div>
+                <label>Number of persons</label><br>
+            </div>
+            <div>
+                <input type="number" required placeholder="UNKNOWN_TYPE">
+            </div>
+            <div>
+                <label>What would you want to avail?*</label><br>
+            </div>
+            <div>
+                <input type="checkbox" name="boarding" value="Bike">
+                <label for="boarding"> Boarding</label><br>
+                <input type="checkbox" name="fooding" value="Car">
+                <label for="fooding"> Fooding</label><br>
+                <input type="checkbox" name="sightSeeing" value="Boat">
+                <label for="sightSeeing"> Sight seeing</label><br>
+            </div>
+
+            <div>
+                <label>Discount Coupon code:</label><br>
+            </div>
+            <div>
+                <input type="text" placeholder="UNKNOWN_TYPE">
+            </div>
+            <div>
+                <label>Terms and conditions</label><br>
+            </div>
+            <div>
+                <input type="radio" name="T&M" value="agree" required> I agree
+                <input type="radio" name="T&M" value="disagree"> I disagree
+            </div>
+            <div>
+                <input type="submit" value="Complete reservation">
+            </div>
+        </form>
+    </body>
+</html>
