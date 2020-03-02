@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+nav {
+    float: left;
+    border: solid 2px red;
+    width: 10%;
+}
+ 
+section {
+    float: right;
+    border: solid 2px orange;
+    width: 90%;
+}
+    
+footer {
+    border: solid 2px blue;
+    width: 100%;
+    text-align: center;
+    float: left;
+}

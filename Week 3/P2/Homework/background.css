@@ -1,0 +1,10 @@
+p {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-image: url("picture.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-clip: content-box;
+    border: dotted red 10px;   
+}
