@@ -1,0 +1,17 @@
+@import 'mixins';
+@import 'variable';
+@import 'inheritance';
+@import 'nesting';
+@import 'operators';
+
+body {
+    background: $blue;
+}
+
+.button1 {
+    @include a-button(#000000, $red, #800080)
+}
+
+.button2 {
+    @include a-button(#00ff00, $red, #ff7f50)
+}

@@ -1,0 +1,12 @@
+@mixin a-button ($base, $hover, $focus) {
+    background-color: $base;
+    color: #fff;
+    
+    &:hover {
+        color: $hover;
+    }
+    
+    &:focus {
+        color: $focus;
+    }
+}

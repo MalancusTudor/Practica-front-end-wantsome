@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+
+    section {
+        color: $blue;
+        background-color: #ffff00;
+    }
+
+    main {
+        color: $red;
+        background-color: $white;
+        flex-grow: 1;
+    }
+}
