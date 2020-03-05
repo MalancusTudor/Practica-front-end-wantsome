@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: blueviolet;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 200px;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.leftSide {
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.rightSide {
+    background-color: yellowgreen;
+    color: white;
+    width: 200px;
+}
+
+footer {
+    background-color: tomato;
+    color: white;
+    height: 250px;
+}
