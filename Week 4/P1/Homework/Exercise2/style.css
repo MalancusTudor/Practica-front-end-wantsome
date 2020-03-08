@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.vertical {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    background-color: darkturquoise;
+    color: white;
+    padding: 20px;
+}
+
+.middleTile {
+    grid-column: 5 / 9;
+    grid-row: 1 / 7;
+    background-color: royalblue;
+    padding: 20px;
+    color: white;
+}
+
+.tiles {
+    grid-column: 1 / 5;
+    grid-row: 4 / 7;
+    background-color: gold;
+    padding: 20px;
+}
+
+.wideTile {
+    grid-column: 1 / 9;
+    grid-row: 7 / 13;
+    background-color: mediumvioletred;
+    padding: 20px;
+    color: white;
+}
+
+.tallTile {
+    grid-column: 9 / 13;
+    grid-row: 1 / 13;
+    background-color: limegreen;
+    padding: 20px;
+    color: white;
+}
+
+img {
+    width: 450px;
+    height: 320px;
+}
