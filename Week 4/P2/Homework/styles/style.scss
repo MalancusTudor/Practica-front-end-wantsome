@@ -1,0 +1,182 @@
+/*==========  Mobile First Method  ==========*/
+@import '_variables.scss';
+@import '_body.scss';
+@import '_header.scss';
+@import '_footer.scss';
+@import '_form.scss';
+@import '_sections';
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    header {
+        p {
+            display: none;
+        }
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    header {
+        height: 600px;
+
+        p {    
+            display: initial;
+            margin-top: 0;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+        }
+    }
+
+    .firstSection {
+        div {
+            p {
+                width: 400px;
+            }
+        }
+    }
+
+    .howItWorks, .aSection, .almostOver {
+        img {
+            width: 600px;
+            height: 400px;
+        }
+    }
+
+    .formular {
+        input {
+            width: 700px;
+        }
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+    header {
+        p {
+            margin-left: 500px;
+            width: 400px;
+        }
+
+        h3 {
+            margin-left: 500px;
+        }
+
+        .apps {
+            margin-left: 500px;
+
+            img {
+                margin-top: 70px;
+                margin-bottom: 70px;
+            }
+        }
+    }
+
+    .firstSection, .howItWorks, .aSection, .almostOver {
+        flex-direction: row;
+    }
+
+    .firstSection {
+        justify-content: space-around;
+    }
+
+    .howItWorks, .almostOver {
+        img {
+            margin-right: 200px;
+        };
+    }
+
+    .howItWorks {
+        display: grid;
+
+        h1 {
+            grid-row: 1 / 2;
+            grid-column: 9 / 13;
+            margin-bottom: 50px;
+        }
+
+        img {
+            grid-row: 2 / 13;
+            grid-column: 12 / 13;
+        }
+
+        i {
+            grid-row: 3/4;
+            grid-column: 3/4;
+        }
+
+        h3 {
+            padding-left: 20px;
+            grid-row: 3/4;
+            grid-column: 4/5;
+        }
+
+        p {
+            width: 400px;
+            grid-row: 5/6;
+            grid-column: 4/5;
+        }
+    }
+
+    .aSection {
+        display: grid;
+
+        img {
+            grid-row: 4 / 13;
+            grid-column: 3 / 5;
+        }
+
+        i {
+            grid-row: 3/4;
+            grid-column: 7/8;
+        }
+
+        h3 {
+            padding-left: 20px;
+            grid-row: 3/4;
+            grid-column: 8/11;
+        }
+
+        p {
+            width: 400px;
+            grid-row: 5/6;
+            grid-column: 8/11;
+        }
+    }
+
+    .almostOver {
+        display: grid;
+
+        img {
+            grid-row: 2 / 13;
+            grid-column: 12 / 13;
+        }
+
+        i {
+            grid-row: 3/4;
+            grid-column: 3/4;
+        }
+
+        h3 {
+            padding-left: 20px;
+            grid-row: 3/4;
+            grid-column: 4/5;
+        }
+
+        p {
+            width: 400px;
+            grid-row: 5/6;
+            grid-column: 4/5;
+        }
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+}
