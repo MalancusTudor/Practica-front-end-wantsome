@@ -33,7 +33,6 @@ xhttpPuppies.send();
 
 const postImage = (puppies) => {
     const div = document.querySelector('.text');
-    console.log(puppies);
     div.textContent = "";
     puppies.data.children.forEach(element => {
         let img = document.createElement('img');
