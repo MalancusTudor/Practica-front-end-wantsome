@@ -24,10 +24,10 @@ button.addEventListener('click', onload);
 
 // Exercise 2
 
-const puppies ='https://www.reddit.com/r/aww/search.json?q=puppy&restrict_sr=true';
+const puppiesUrl ='https://www.reddit.com/r/aww/search.json?q=puppy&restrict_sr=true';
 
 let xhttpPuppies = new XMLHttpRequest();
-xhttpPuppies.open('GET', puppies);
+xhttpPuppies.open('GET', puppiesUrl);
 xhttpPuppies.responseType = 'json';
 xhttpPuppies.send();
 
@@ -44,7 +44,7 @@ const postImage = (puppies) => {
 const loadPuppies = () => {
     let puppies = xhttpPuppies.response;
     postImage(puppies);
-    xhttpPuppies.open('GET', puppies);
+    xhttpPuppies.open('GET', puppiesUrl);
     xhttpPuppies.responseType = 'json';
     xhttpPuppies.send();
 }
