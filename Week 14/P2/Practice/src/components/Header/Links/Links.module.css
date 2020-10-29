@@ -1,0 +1,13 @@
+.list {
+  list-style-type: none;
+  display: flex;
+}
+
+.link {
+  padding: 10px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
